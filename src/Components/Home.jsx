@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 import { MdKeyboardArrowRight } from "react-icons/md";
-
+import person from "/person.jpg";
 export default function Home() {
   return (
     <div
@@ -10,7 +10,7 @@ export default function Home() {
     >
       <div>
         <img
-          src="/person.jpg"
+          src={person}
           alt=""
           className="w-72 h-72 block md:hidden rounded-full"
         />
